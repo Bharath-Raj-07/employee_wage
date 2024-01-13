@@ -1,4 +1,5 @@
-hours=8
-wage_per_hour=20
-dailywage=$(($hours*$wage_per_hour))
+fhours=8
+w_hour=20
+phours=8
+dailywage=$((($fhours+$phours)*$w_hour))
 echo "$dailywage"
